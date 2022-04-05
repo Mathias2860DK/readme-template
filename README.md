@@ -83,6 +83,32 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- API DOCUMENTATION -->
 ## API DOCUMENTATION
 
+
+```
+{
+   "username": "username",
+   "token": "..."
+}
+
+```
+
+| Method | URL | Request Body (JSON) | Response (JSON) | Response (JSON) | Error (e) |
+| :--- | :--- |
+| POST | /api/login | ```
+{
+  "username":"string",
+  "password":"string"
+}
+``` | ```
+{
+   "username": "username",
+   "token": "..."
+}
+
+``` | yes|
+
+
+
 Method
 URL
 Request Body (JSON)
