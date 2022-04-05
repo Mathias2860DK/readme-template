@@ -3,6 +3,10 @@
 * [Deployed project url](https://mustitokmak.com)
 * [Youtube Demo - Walkthrough](https://www.youtube.com/watch?v=nDTlmutUROk)
 
+* [GitHub Repo Frontend](https://github.com/cphB-A4/tables-planner-frontend)
+* [GitHub Repo Backend](https://github.com/cphB-A4/tables-planner)
+
+
 <!-- GETTING STARTED FRONTEND -->
 ## Getting Started Frontend
 
@@ -71,11 +75,9 @@ _Below is an example of how you can instruct your audience on installing and set
 
 Mathias - [@Mathias2860DK](https://www.linkedin.com/in/mathias-enemark-poulsen-8107011bb/)
 
-Mustafa - [@TheAgns](https://www.linkedin.com/in/mathias-enemark-poulsen-8107011bb/)
+Markus - [@TheAgns](https://www.linkedin.com/in/mathias-enemark-poulsen-8107011bb/)
 
-Markus - [@MustiTokmak1](https://www.linkedin.com/in/mathias-enemark-poulsen-8107011bb/)
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Mustafa - [@MustafaTokmak1](https://www.linkedin.com/in/mathias-enemark-poulsen-8107011bb/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
