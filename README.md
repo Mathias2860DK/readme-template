@@ -29,13 +29,27 @@ _Below is an example of how you can instruct your audience on installing and set
 ## Getting Started BACKEND
 
 ### Installation
-<!-- USAGE EXAMPLES -->
-## Usage
-
-2. Clone the repo
+1. Clone the repo. (Install docker image)
+   ```sh
+   git clone https://github.com/Hartmannsolution/docker3sem.git
+   ```
+2. cd into the cloned repo and run:
+   ```sh
+   docker-compose build
+   ```
+3. Then run: 
+    ```sh
+   docker-compose up -d
+   ```
+4. Clone the projects backend
    ```sh
    git clone https://github.com/cphB-A4/tables-planner
    ```
+   
+   
+   
+<!-- USAGE EXAMPLES -->
+## Usage
 
 ### Creating event
 ![](https://github.com/cphB-A4/tables-planner-frontend/blob/main/GIF-tables-planner.gif)
@@ -61,18 +75,17 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 
 
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+<!-- TECHNOLOGIES -->
+## Technologies used
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+Libraries/frameworks/dependencies(not all dependencies included) used in the project
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Java JAX-RS for REST API](https://docs.oracle.com/javaee/7/api/javax/ws/rs/package-summary.html)
+* [React.js](https://reactjs.org/)
+* [Java Maven for dependencies](https://maven.apache.org/what-is-maven.html)
+* [svg-inline-react library for showing SVG drawing](https://www.npmjs.com/package/svg-inline-react)
+* [Maven dependency for jwt-support](https://mvnrepository.com/artifact/com.nimbusds/nimbus-jose-jwt)
+* [React Boostrap](https://react-bootstrap.github.io/getting-started/introduction)
+
 
 
