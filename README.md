@@ -1,3 +1,8 @@
+<!-- Project -->
+# Deployed project & demo
+* [Deployed project url](https://mustitokmak.com)
+* [Youtube Demo - Walkthrough](https://www.youtube.com/watch?v=nDTlmutUROk)
+
 <!-- GETTING STARTED FRONTEND -->
 ## Getting Started Frontend
 
@@ -64,14 +69,107 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- CONTACT -->
 ## Contact
 
-Mathias - [@Mathias2860DK](https://linkedin/Mathias2860DK)
+Mathias - [@Mathias2860DK](https://www.linkedin.com/in/mathias-enemark-poulsen-8107011bb/)
 
-Mustafa - [@Mathias2860DK](https://linkedin/Mathias2860DK)
-Markus - [@Mathias2860DK](https://linkedin/Mathias2860DK)
+Mustafa - [@TheAgns](https://www.linkedin.com/in/mathias-enemark-poulsen-8107011bb/)
+
+Markus - [@MustiTokmak1](https://www.linkedin.com/in/mathias-enemark-poulsen-8107011bb/)
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- API DOCUMENTATION -->
+## API DOCUMENTATION
+
+Method
+URL
+Request Body (JSON)
+Response (JSON)
+Error (e)
+POST	
+/api/login
+{"username":"admin","password":"test2"}
+{
+   "username": "admin",
+   "token": "..."
+}
+ 
+Yes
+GET
+/api/user/get-all-events-by-user
+
+
+[
+   {
+       "id": "id",
+       "description": "description",
+       "title": "title",
+       "time": "2022-03-24-12-00"
+   }
+]
+ 
+
+
+Yes
+GET
+/api/user/event/{uuid}
+{uuid} pathParam
+{
+   "id": "id",
+   "description": "description",
+   "title": "title",
+   "time": "2022-03-24-12-00",
+   "tablesList": [
+       {
+           "id": id,
+           "size": size,
+           "shape": "shape",
+           "persons": []
+       }
+   ]
+}
+
+
+Yes
+POST
+/api/user/createEvent
+  {
+       "description": "description",
+       "title": "title",
+       "time": "2002-03-24-12-00"
+   }
+
+
+{
+   "id": "id",
+   "description": "description",
+   "title": "title",
+   "time": "2002-03-24-12-00"
+}
+ 
+Yes
+PUT
+/table/{id}
+{id} pathParam
+{
+   "id": id,
+   "size": size,
+   "persons": []
+}
+ 
+Yes
+DELETE
+/api/user/deleteTable/{id}
+{id} pathParam
+{
+   "id": id,
+   "size": size,
+   "persons": []
+}
+ 
+Yes
 
 
 
